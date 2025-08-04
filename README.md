@@ -79,7 +79,7 @@ This project involves cleaning a messy Excel dataset containing 200 customer ord
 |-----------------------|-------------------------------------|
 | `dirty_dataset_200_rows.xlsx` | Raw dataset before cleaning      |
 | `Task1.ipynb`         | Jupyter Notebook with all cleaning steps |
-| `cleaned_dataset.xlsx`| Final cleaned output dataset         |
+| `cleaned_dataset.csv`| Final cleaned output dataset         |
 | `README.md`           | Project summary and documentation   |
 
 ---
