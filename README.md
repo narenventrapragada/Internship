@@ -1,4 +1,4 @@
-# 🧹 Data Cleaning Task – Dirty Dataset (200 Rows)
+# 🧹 Data Cleaning Task – Dirty Dataset 
 
 ## 📂 Project Overview
 This project involves cleaning a messy Excel dataset containing 200 customer order records. The data had multiple inconsistencies across date formats, text fields, numerical conversions, and missing values. The entire cleaning process was carried out using Python in a Jupyter Notebook (`Task1.ipynb`).
