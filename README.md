@@ -29,7 +29,7 @@ This project involves cleaning a messy Excel dataset containing 200 customer ord
 ### ⚠️ 2. Missing Values
 - Replaced missing `Customer Name` and `Region` with `"Unknown"`.
 - Replaced empty strings in `Quantity` with 0.
-- Used `fillna()` for blank or invalid values.
+- Used `ffill()` for blank or invalid values.
 
 ### 🧾 3. Text Cleaning
 - Trimmed leading/trailing whitespaces in text fields.
