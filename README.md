@@ -47,7 +47,7 @@ This project involves cleaning a messy Excel dataset containing 200 customer ord
 ### 📅 6. Date Standardization
 - The `Order Date` column contained formats like:
   - `01/05/2023`, `07-08-23`, `Oct 12, 2023`, `8/9/23`, `2023.11.01`
-- Used `dateutil.parser.parse()` with `dayfirst=True` to handle all formats.
+- Used `to_datetime(data['Order Date'])` with `format='mixed'` to handle all formats.
 - Converted to datetime using a custom parser and standardized to `YYYY-MM-DD`.
 
 ### 📊 7. Category Normalization
